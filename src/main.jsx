@@ -15,7 +15,7 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker
       .register(`${import.meta.env.BASE_URL}sw.js`)
       .then(() => {
-        console.log("YouthAthleteOS Service Worker registered");
+        console.log("Service Worker registered");
       })
       .catch((error) => {
         console.error(
